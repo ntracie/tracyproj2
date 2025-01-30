@@ -172,9 +172,9 @@ export default function Form() {
                 type="text"
                 className="w-full rounded-lg border-gray-200 p-4 pe-12 text-sm shadow-sm"
                 placeholder="Enter description"
-                {...register("decription", { required: true })}
+                {...register("description", { required: true })}
               />
-              {errors.decription && (
+              {errors.description && (
                 <span className="text-red-600">This field is required</span>
               )}
 
